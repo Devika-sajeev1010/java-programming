@@ -19,7 +19,7 @@ public class program20 {
         {
             for(int j =0 ;j< 3; j++)
             {
-                if(arr[i][j] != arr[j][i] && i!= j)
+                if(arr[i][j] != arr[j][i] && i!=j)
                 {
                     System.out.println("not symmetric");
                     exit(0);
